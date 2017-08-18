@@ -7,7 +7,7 @@
               {:dev {:source-paths ["src"]
                      :compiler {:output-to "out.js"
                                 :main test-ns.main
+                                :target :nodejs
                                 :optimizations :none}}}}
-  :dependencies [[com.cerner/clara-rules "0.15.2"]
-                 [org.clojure/clojurescript "1.9.854"]]
+  :dependencies [[medley "1.0.0"]]
   :source-paths ["src"])
